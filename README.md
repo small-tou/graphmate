@@ -7,6 +7,10 @@ graphmate
 
 ###用法一：跟踪点(已实现）
 效果：每个跟踪的点之间都会显示一条线，100ms更新一次位置
+demo: http://www.fuck-qq.com/tangcha/flip_1.html 
+此demo用来演示css3翻页时候的计算方法。
+demo跟踪了四个点，一个是旋转中心（固定），一个是鼠标点，一个是右上右下两个点。
+
 ```
 var point1,point2;
 GraghMate.track({
